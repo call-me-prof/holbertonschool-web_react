@@ -5,6 +5,15 @@
     "module": "es6",
     "target": "es5",
     "allowJs": true,
-    "moduleResolution": "node"
-  }
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "lib": ["es2015", "dom"],
+    "types": []
+  },
+  "include": [
+    "js/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
