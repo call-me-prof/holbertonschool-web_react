@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "none",
+    "lib": ["es2015", "dom"],
+    "outFile": "./dist/bundle.js",
+    "allowJs": true,
+    "noImplicitAny": true
+  },
+  "files": [
+    "js/subjects/Teacher.ts",
+    "js/subjects/Subject.ts",
+    "js/subjects/Cpp.ts",
+    "js/subjects/React.ts",
+    "js/subjects/Java.ts"
+  ]
+}
